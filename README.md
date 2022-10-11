@@ -25,6 +25,7 @@ $ php artisan key:generate
 - Para inciar a aplicação é necessarío que o serviço do mysql no xampp esteja habilitado
 - Rode o comando "php artisan serve --port=80" no terminal do VSCODE 
 - Rota para acesso da rotina no navegador "localhost/scraper"
+- Caminho para rotina app/Http/Controllers/ScraperController.php
 
 obs: Não consegui recuperar os dados da resposta utilizando as rotinas nativas da linguagem, sempre me retorna forbidden. Porém eu consigo recuperar o token da sessão e alterar o token utilizando basicamente a mesma lógica da função "findAnswer()" do script, mas no momento de enviar a requisição do server ele me retorna que não fui autorizado mesmo gerando um novo token.
 
